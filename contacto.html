@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Contactos</title>
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap-dev-4.min.css">
+<link rel="stylesheet" href="css/estilos.css">
+<!-- animate for web -->
+<link rel="stylesheet" href="css/animate.min.css">
+<!-- Icons Awesome CSS --> 
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- jQuery-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Tipos de letras -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
+<!-- animate for web -->
+<script src="js/wow.min.js"></script>
+<!-- animate for scroll -->
+<script src="js/smooth-scroll.min.js"></script>
+<!-- sitio js personalizado -->
+<script src="js/sitio.js"></script>
+</head>
+<body class="paginas-internas"> 
+<section class="bienvenidos">
+<header class="encabezado navbar fixed-top" role="banner" id="encabezado" data-scroll>
+<div class="container">
+
+<a href="index.html" class="logo"><img src="img/logo.svg" alt="logo"><span class="NoEstilo"> Nombre Empresa </span> </a>
+
+<button class="boton-menu d-md-none" type="button" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
+<i class="fa fa-bars" aria-hidden="true"></i>
+</button>
+
+
+<nav id="menu-principal" class="collapse">
+<ul>
+<li> <a href="index.html">Inicio</a></li>
+<li> <a href="nosotros.html">Nosotros</a></li>
+<li> <a href="proyectos.html">Proyectos</a></li>
+<li class="active"> <a href="contacto.html">Contactos</a></li>
+</ul>
+</nav>
+
+</div>
+</header>
+
+<div class="texto-encabezado text-center">
+<div class="container">
+<h1 class="display-4 wow bounceIn">Contáctanos</h1>
+<p class="wow fadeInDown" data-wow-delay=".3s">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, saepe.</p>
+</div>
+</div>
+</section>
+<!-- encabezado-->
+<section class="ruta p-3">
+<div class="container">
+<div class="row">
+    <div class="col-12 text-right">
+        <a href="index.html">Inicio <i class="fa fa-home" aria-hidden="true"></i></a>
+        >><a href="contacto.html"> Contactos <i class="fa fa-address-book-o" aria-hidden="true"></i></a>
+    </div>
+</div>
+</div>
+</section>
+
+<main class="p-1">
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-8 wow fadeInLeft" data-wow-delay=".3s">
+    <h2>Formulario de contacto</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+    <form action="send_form_email.php" method="post">
+      
+      <div class="form-group row">
+      <label for="nombre" class="col-md-4 col-form-label"><i class="fa fa-user" aria-hidden="true"></i> Nombre:</label>
+      <div class="col-md-8">
+      <input class="form-control" type="text" name="nombre" required placeholder="Escribe tu nombre">
+      </div>
+      </div>
+    
+      <div class="form-group row">
+      <label for="email" class="col-md-4 col-form-label"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email:</label>
+      <div class="col-md-8">
+      <input class="form-control" type="email" name="correo" required placeholder="Escribe tu email">
+      </div>
+      </div>
+
+      <div class="form-group row">
+      <label for="mensaje" class="col-md-4 col-form-label"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> Mensaje:</label>
+      <div class="col-md-8">
+      <textarea class="form-control" rows="5" required name="mensaje"  placeholder="Escribe tu mensaje"></textarea>
+      <div class="pd-top">
+      <button  type="submit" name="enviar" class="btn btn-primary">Enviar</button>
+      <button type="reset" class="btn btn-secondary">Limpiar</button>
+      </div>
+      </div>
+      </div>
+
+
+    </form>
+    </div>
+
+    <div class="col-md-4 wow fadeInRight" data-wow-delay=".3s">
+      <h2>Detalles de Contacto</h2>
+      <img src="https://images.pexels.com/photos/1089925/pexels-photo-1089925.jpeg?auto=compress&cs=tinysrgb&w=600" height="330" width="330" alt="Methriks" class="img-thumbnail">
+      <p> </p>
+    </div>
+  </div>
+</div>
+</main>
+
+
+
+<footer class="piedepagina py-2" role="contentinfo" >
+<div class="container"> 
+<p>2022 © Create by Edwin Sac</p>
+<ul class="redes-sociales">
+    <li><a href="#" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> </a></li>
+    <li><a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i> </a></li>
+</ul>
+</div>
+</footer>
+<a class="ir-arriba" href="#encabezado" ><i class="fa fa-hand-o-up" aria-hidden="true"></i> </a>
+</body>
+</html>

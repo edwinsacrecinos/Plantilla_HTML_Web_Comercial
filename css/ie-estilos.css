@@ -1,0 +1,7 @@
+.paginas-internas .lista-servicios .item-servicios {
+        display: block;
+        width: 100%;
+    }
+    .paginas-internas .lista-servicios .item-servicios p{
+        width: 100%;
+    }

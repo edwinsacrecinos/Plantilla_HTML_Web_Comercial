@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .a {
+        fill: #27bec4;
+      }
+
+      .b {
+        fill: #e1e1e2;
+      }
+
+      .c {
+        fill: #c4c3c4;
+      }
+
+      .d {
+        fill: #fff;
+      }
+
+      .e {
+        fill: #213538;
+      }
+
+      .f {
+        fill: #08191e;
+      }
+    </style>
+  </defs>
+  <title>desktop-support</title>
+  <g>
+    <circle class="a" cx="250" cy="250" r="245"/>
+    <g>
+      <g>
+        <circle class="b" cx="163.38" cy="168.14" r="61.25" transform="translate(-71.04 164.78) rotate(-45)"/>
+        <rect class="a" x="118.76" y="115.86" width="45.94" height="61.25" transform="translate(-62.07 143.12) rotate(-45)"/>
+        <circle class="b" cx="358.28" cy="363.03" r="30.62" transform="translate(-151.77 359.67) rotate(-45)"/>
+        <rect class="b" x="230.2" y="127.77" width="61.25" height="275.62" transform="translate(-111.4 262.23) rotate(-45)"/>
+        <circle class="a" cx="358.28" cy="363.03" r="22.97" transform="translate(-151.77 359.67) rotate(-45)"/>
+      </g>
+      <rect class="c" x="237.86" y="162.22" width="45.94" height="206.72" transform="translate(-111.4 262.21) rotate(-45)"/>
+      <g>
+        <rect class="d" x="93.16" y="312.07" width="183.75" height="15.31" transform="translate(-171.88 224.48) rotate(-45)"/>
+        <polygon class="d" points="113.3 377.92 129.54 356.27 144.43 349.5 155.26 360.33 148.49 375.22 126.84 391.46 113.3 377.92"/>
+        <rect class="e" x="246.06" y="159.17" width="137.81" height="61.25" transform="translate(-41.96 278.29) rotate(-45)"/>
+        <rect class="f" x="246.64" y="223.67" width="22.97" height="45.94" transform="translate(-98.8 254.75) rotate(-45)"/>
+        <rect class="f" x="247.76" y="218.72" width="15.31" height="61.25" transform="translate(-101.51 253.62) rotate(-45)"/>
+        <rect class="f" x="360.32" y="109.98" width="22.97" height="45.94" transform="translate(14.89 301.84) rotate(-45)"/>
+        <rect class="f" x="361.45" y="105.03" width="15.31" height="61.25" transform="translate(12.19 300.74) rotate(-45)"/>
+        <circle class="f" cx="390.76" cy="146.48" r="7.66" transform="translate(10.89 319.24) rotate(-45.01)"/>
+        <circle class="f" cx="358.27" cy="114" r="7.66" transform="translate(24.34 286.76) rotate(-45.01)"/>
+      </g>
+    </g>
+  </g>
+</svg>
