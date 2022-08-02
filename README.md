@@ -8,4 +8,6 @@
 * PHP (para envío de email contacto).
 * HTML + CSS
 
-![](https://raw.githubusercontent.com/edwinsacrecinos/storage_img/main/Plantilla_HTML_Web_Comercial/ejemplo_Plantilla.PNG?token=GHSAT0AAAAAABWMUATXES6KKWJNKJIWB47EYXIOJPA)
+<img src="https://raw.githubusercontent.com/edwinsacrecinos/storage_img/main/Plantilla_HTML_Web_Comercial/ejemplo_Plantilla.PNG?token=GHSAT0AAAAAABWMUATXES6KKWJNKJIWB47EYXIOJPA" alt="example image"/>
+
+
